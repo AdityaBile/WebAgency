@@ -664,9 +664,10 @@ svg {
 
 .about-banner {
   position: relative;
-  border-radius: var(--radius-5);
+  border-radius: 2rem;
   overflow: hidden;
   margin-block-end: 25px;
+  border: 1rem solid var(--cultured-2);
 }
 
 .play-btn {
@@ -778,13 +779,15 @@ svg {
 
   .project-card {
     height: 35rem;
-    width: 35rem;
-    margin-left: 3.5rem;
+    /* width: 35rem; */
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
   }
 
   .service-card {
-    width: 35rem;
+    /* width: 35rem; */
     margin-left: 3.5rem;
+    margin-right: 3.5rem;
   }
   .navbar-main-container {
     margin-left: 1.5rem;
@@ -796,6 +799,10 @@ svg {
   .pdf-download {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+  }
+
+  .pdf-download .conatiner .pdf-grid {
+    gap: 5px;
   }
 
   .about {
@@ -817,7 +824,7 @@ svg {
 /* Flexbox grid styling for PDF cards */
 .pdf-grid {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   flex-wrap: wrap;
   justify-content: center;
 }
