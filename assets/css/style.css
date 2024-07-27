@@ -447,7 +447,8 @@ body {
 
 .video-background video {
   margin-top: 5rem;
-  padding-bottom: 1.5rem;
+  padding-left: 0.5rem;
+  padding-bottom: 2rem;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -494,6 +495,7 @@ svg {
 }
 
 .service-wave {
+  margin-top: 0;
   background-color: var(--background);
 }
 
@@ -779,13 +781,13 @@ svg {
 
   .project-card {
     height: 35rem;
-    /* width: 35rem; */
+    width: auto;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
   }
 
   .service-card {
-    /* width: 35rem; */
+    width: auto;
     margin-left: 3.5rem;
     margin-right: 3.5rem;
   }
