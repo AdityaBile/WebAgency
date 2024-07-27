@@ -422,6 +422,7 @@ body {
   position: relative;
   color: white;
   background-color: var(--background);
+  z-index: 0;
 }
 
 .hero-content {
@@ -466,6 +467,10 @@ body {
 @media (max-width: 768px) {
   .video-background {
     opacity: 80%;
+  }
+  .video-background video {
+    height: 80%;
+    margin-top: 5rem;
   }
 
   .hero-title {
@@ -1189,6 +1194,11 @@ textarea.input-field {
 
   .contact-item {
     min-width: calc(50% - 18px);
+  }
+
+  .video-background video {
+    height: 75%;
+    margin-top: 5.2rem;
   }
 }
 
